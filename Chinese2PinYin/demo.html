@@ -1,0 +1,13 @@
+<form id="form1" name="form1" method="post" action="">
+  <textarea name="text1" cols="50" rows="10" id="text1" onkeyup="f();"></textarea>
+  <br />
+  <textarea name="text2" cols="50" rows="10" id="text2"></textarea>
+</form>
+<script src="pinyin.js"></script>
+<script language="javascript">
+function f()
+{
+   text1=document.getElementById("text1").value
+   document.getElementById("text2").value=codefans_net_CC2PY(text1);
+}
+</script>
