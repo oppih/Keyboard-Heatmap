@@ -15,6 +15,24 @@ html{height:100%}body{height:100%;overflow:auto;font-family:Helvetica,Arial,Sans
                 height: 80px;
                 word-wrap: break-word;
             }
+            #text1 {
+                width:770px;
+                padding:10px;
+                margin-top:10px;
+                font-size:26px;
+                border: 5px solid grey;
+                height: 80px;
+                word-wrap: break-word;
+            }
+            #text2 {
+                width:770px;
+                padding:10px;
+                margin-top:10px;
+                font-size:26px;
+                border: 5px solid grey;
+                height: 80px;
+                word-wrap: break-word;
+            }
             #inputarea {
                 padding: 15px 0px 15px 0px;
             }
