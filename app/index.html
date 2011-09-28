@@ -65,13 +65,15 @@
         <div id="inputarea">
 
   <textarea id="text1" onkeyup="f();"></textarea>
+<!--
   <textarea id="text2"></textarea>
+-->
 <script src="pinyin.js"></script>
 <script language="javascript">
 function f()
 {
    text1=document.getElementById("text1").value
-   document.getElementById("text2").value=CC2PY(text1);
+   document.getElementById("typefield").value=CC2PY(text1);
 }
 </script>
             <h2>Please type something in the textbox or load a sample text :-)</h2>
